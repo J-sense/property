@@ -1,6 +1,7 @@
 import React from 'react'
 import { LuImport } from "react-icons/lu";
 import img from '../assets/profile6.jpg'
+import resume from '../../public/jishan-resume.pdf'
 const HeorSection = () => {
   return (
     <div>
@@ -8,7 +9,7 @@ const HeorSection = () => {
         <h1 className=' mt-16 overflow-hidden text-[12vw] font-semibold uppercase
         leading-none'>Najmul <br /> <span className='text-lime-300'>Hasan Jishan</span></h1>
         <div className='mt-8'>
-            <a href="#"
+            <a href={resume}
             target='_black'
             rel='noopener noreferrer'
             download
